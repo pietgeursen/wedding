@@ -15,6 +15,10 @@ Install the Foundation CLI with this command:
 npm install foundation-cli budo --global
 ```
 
+```bash
+npm install
+```
+
 ## Develop
 
 In one terminal:
