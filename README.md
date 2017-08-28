@@ -1,4 +1,4 @@
-# Foundation for Sites Template
+# Piet and Katie's wedding site
 
 ## [Deployed here](https://pietgeursen.github.io/wedding/)
 
