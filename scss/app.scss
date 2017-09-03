@@ -66,7 +66,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: $global-font-size;
   font-weight:200;
-  color: $black
+  color: $black;
+  background: #f8ebc6;
 }
 
 h1, h2, h3 {
@@ -78,13 +79,13 @@ h1, h2, h3 {
 h2 {
   border-top: $code-border;
   border-bottom: $code-border;
-  width: 400px;
 }
 
 .background-image {
   border-radius: 100%;
   width: 250px;
   height:250px;
+  margin: 0 auto;
   background-image: url("/stuff.jpg");
   background-size: cover;
   background-position: right;
@@ -93,10 +94,20 @@ h2 {
 .heading_image {
   &--container {
     margin: 0 auto;
-    width: 250px;
+    width: 70%;
+    border-bottom: $code-border;
     h1 {
       text-align: center;
       margin: 10px 0;
     }
   }
+}
+
+.rsvp-button {
+  background: white;
+  border-radius: 5px;
+  border: 3px solid black;
+  color: black;
+  font-size: $global-font-size * 1.2;
+  margin: 10px auto;
 }
