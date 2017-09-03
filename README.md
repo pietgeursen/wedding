@@ -12,11 +12,12 @@ To use this template, your computer needs:
 Install the Foundation CLI with this command:
 
 ```bash
-npm install foundation-cli budo --global
+npm install foundation-cli bower budo --global
 ```
 
 ```bash
 npm install
+bower install
 ```
 
 ## Develop
