@@ -61,7 +61,9 @@ iframe {
 .grid-container {
   margin: 20px auto;
 }
-
+.grid-x {
+  border-bottom: 1px solid white;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: $global-font-size;
@@ -99,6 +101,8 @@ h2 {
     h1 {
       text-align: center;
       margin: 10px 0;
+      font-size: 35px;
+      color: $dark-gray;
     }
   }
 }
@@ -110,4 +114,14 @@ h2 {
   color: black;
   font-size: $global-font-size * 1.2;
   margin: 10px auto;
+}
+
+.closing-image {
+  border-radius: 100%;
+  width: 70px;
+  height:70px;
+  margin: 40px auto;
+  background-image: url("/yargblarg.jpg");
+  background-size: cover;
+  background-position: right;
 }
