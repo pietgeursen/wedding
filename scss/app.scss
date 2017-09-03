@@ -57,3 +57,46 @@
 iframe {
   @include horizontal-center;
 }
+
+.grid-container {
+  margin: 20px auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $global-font-size;
+  font-weight:200;
+  color: $black
+}
+
+h1, h2, h3 {
+  font-size: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  border-top: $code-border;
+  border-bottom: $code-border;
+  width: 400px;
+}
+
+.background-image {
+  border-radius: 100%;
+  width: 250px;
+  height:250px;
+  background-image: url("/stuff.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.heading_image {
+  &--container {
+    margin: 0 auto;
+    width: 250px;
+    h1 {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+}
