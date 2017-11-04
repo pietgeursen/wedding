@@ -54,16 +54,14 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-iframe {
-  @include horizontal-center;
-}
-
 .grid-container {
   margin: 20px auto;
 }
+
 .grid-x {
   border-bottom: 1px solid white;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: $global-font-size;
@@ -75,8 +73,12 @@ body {
 h1, h2, h3 {
   font-size: inherit;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight:200;
+  font-size: $global-font-size * 1.3;
+  letter-spacing: 1px;
 }
+
+p,a { letter-spacing: 1px; }
 
 h2 {
   border-top: $code-border;
